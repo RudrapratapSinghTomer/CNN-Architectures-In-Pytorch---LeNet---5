@@ -5,7 +5,7 @@ import torch.nn.functional as F
 from torch.utils.data import DataLoader
 from torchvision import datasets, transforms
 
-class LeNet_(nn.Module):
+class NNP_(nn.Module):
     def __init__(self):
         super().__init__()
         fc1 = nn.Linear(16*4*4,120)
@@ -15,7 +15,7 @@ class LeNet_(nn.Module):
     def forward_pass(self, x):
 
         x.flatten()
-        
+
         x = F.relu(self.fc1(x))
         x = F.relu(self.fc2(x))
         x = self.fc3(x)
@@ -42,7 +42,7 @@ test_dataloader = DataLoader(test_dataset, 1000, batch_size=64, shuffle=False)
 
 device = torch.device(f'CUDA' if torch.cuda.is_available() else 'CPU')
 
-model = LeNet_().to(device)
+model = NNP_().to(device)
 loss_fn = nn.CrossEntropyLoss()
 optimizer = optim.Adam(model.parameters, lr=0.001)
 
