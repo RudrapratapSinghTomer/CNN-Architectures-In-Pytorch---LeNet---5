@@ -1,0 +1,9 @@
+# Ignore the virtual environment folder
+venv_torch/
+
+# Ignore the specific GPU check file
+check_gpu.py
+
+# Ignore system files that might appear
+.DS_Store
+Thumbs.db
