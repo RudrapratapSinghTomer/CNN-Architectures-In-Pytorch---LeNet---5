@@ -23,7 +23,11 @@ All models are trained and tested on the [CIFAR-10 Dataset](https://www.cs.toron
 
 ## 📚 Documentation & References
 - **LeNet-5 (Original Paper)**: [Gradient-Based Learning Applied to Document Recognition](http://vision.stanford.edu) by Yann LeCun et al.
+
 - **LeNet-5 Guide**: [The Architecture of LeNet-5](https://www.analyticsvidhya.com) (Analytics Vidhya).
+
+- **AlexNet Guide**: [Dive into Deep Learning] (https://d2l.ai/chapter_convolutional-modern/alexnet.html)
+
 - **Pytorch Guide**: Pytorch Documentation (https://docs.pytorch.org/docs/stable/torch.html),
 
 ## 🛠️ Getting Started
